@@ -30,10 +30,11 @@
     "url": "https://github.com/mquintal/next-observable/issues"
   },
   "license": "ISC",
+  "peerDependencies": {
+    "redux-observable": "^2.0.0"
+  },
   "dependencies": {
-    "react": "^16.13.0",
-    "redux-observable": "^1.2.0",
-    "rxjs": "^6.5.4"
+    "react": "^16.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
